@@ -1,8 +1,9 @@
 import 'simple_map.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';  // Import Google Fonts
 
 Future<void> main() async {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -14,6 +15,9 @@ class MyApp extends StatelessWidget {
       title: 'TaxiApp',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        textTheme: GoogleFonts.poppinsTextTheme(
+          Theme.of(context).textTheme,
+        ),
       ),
       home: SimpleMapPage(),
       debugShowCheckedModeBanner: false,
