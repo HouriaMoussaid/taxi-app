@@ -1,7 +1,9 @@
 import 'simple_map.dart';
 import 'package:flutter/material.dart';
+import 'package:geolocator/geolocator.dart';
 
 Future<void> main() async {
+  await Geolocator.requestPermission();
   runApp(MyApp());
 }
 
