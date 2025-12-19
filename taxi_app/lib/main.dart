@@ -1,3 +1,5 @@
+import 'package:taxi_app/Views/welcome_page.dart';
+
 import 'Views/home_page.dart';
 import 'simple_map.dart';
 import 'package:flutter/material.dart';
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: WelcomePage(),
       debugShowCheckedModeBanner: false,
     );
   }
