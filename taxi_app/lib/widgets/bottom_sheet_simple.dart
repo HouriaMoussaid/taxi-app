@@ -16,7 +16,7 @@ class BottomPanel extends StatelessWidget {
       height: 200,
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        color: Color(0xFFF67F00),
+        color:Color(0xFFF67F00) ,
         borderRadius: const BorderRadius.only(
           topLeft: Radius.circular(20),
           topRight: Radius.circular(20),
