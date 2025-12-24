@@ -5,12 +5,14 @@ class DriverCard extends StatelessWidget {
   final String carType;
   final String distance;
   final String eta;
+   final bool highlight;
 
   const DriverCard({
     required this.driverName,
     required this.carType,
     required this.distance,
     required this.eta,
+    this.highlight = false,
     super.key,
   });
 

@@ -1,3 +1,5 @@
+import 'package:taxi_app/Views/welcome_page.dart';
+
 import 'simple_map.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';  // Import Google Fonts
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
           Theme.of(context).textTheme,
         ),
       ),
-      home: SimpleMapPage(),
+      home: const WelcomePage(),
       debugShowCheckedModeBanner: false,
     );
   }
