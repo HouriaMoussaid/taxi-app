@@ -9,8 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  intl: ^0.18.0
   google_maps_flutter: ^2.2.6
   geolocator: ^9.0.2
+  audioplayers: ^5.2.1
 
 
   cupertino_icons: ^1.0.8
